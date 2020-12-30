@@ -1,0 +1,51 @@
+@import "bootstrap/bootstrap.scss";
+
+
+body{
+padding:0;
+margin: auto 0;
+font-family: 'Poppins', sans-serif;
+    
+}
+
+header{
+    background: no-repeat center top url("../images/bkg-hero-header.jpg");
+    background-size: cover;
+    text-align: center;
+    color:$white;
+    height:600px;
+
+}
+
+nav{
+    img{
+        width:100px;
+        margin:0 10%;
+        margin-right: 20%;
+
+
+    }
+    
+    li{
+        a{
+            color:$white;
+        }
+    }
+
+    
+   } 
+
+.jumbo{
+    margin-top:100px;
+
+    p{
+        margin-left: 25%;
+        width:600px;
+    }
+
+    button{
+        margin-top: 100px;
+        padding:10px 50px;
+    }
+}
+   
